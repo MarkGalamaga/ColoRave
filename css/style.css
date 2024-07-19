@@ -329,4 +329,73 @@ body {
 
 /* Стили для order */
 
+.order-section {
+  background-image: url(../images/orderbackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 37px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.order-title {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 33px;
+}
+
+.email-input {
+  width: 690px;
+  height: 60px;
+  border-radius: 50px;
+  background: #fff;
+  border: none;
+  color: #959595;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 25px;
+}
+
+.order-input {
+  color: #959595;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 25px;
+  width: 580px;
+  height: 50px;
+  border-radius: 50px;
+  background: #fff;
+  border: none;
+}
+
+.submit-button {
+  width: 248px;
+  height: 68px;
+  border-radius: 10px;
+  background: #8e32c6;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+
 /* Стили для footer */
