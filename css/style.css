@@ -92,6 +92,7 @@ body {
 
 .intro-logo {
   position: relative;
+  margin-top: 94px;
 }
 
 .intro-img {
@@ -399,3 +400,88 @@ body {
 }
 
 /* Стили для footer */
+
+.footer {
+  background: #021635;
+  padding-top: 45px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-question {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.footer-decor {
+  width: 1110px;
+  height: 1px;
+  background: #9b9b9b;
+  margin-top: 20px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-copy {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 24px;
+  margin-bottom: 7px;
+}
+
+.footer-location {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.footer-logo-img {
+  width: 108px;
+  height: 60px;
+}
+
+.footer-logo-text {
+  color: #fff;
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
