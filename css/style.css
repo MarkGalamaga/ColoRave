@@ -1,2 +1,332 @@
-@import "reset.css";
-@import "normalize.css";
+/* Общие стили */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* Стили для header */
+
+.header-container {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: #012d63;
+  padding: 16px 0;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: inline-block;
+  margin-right: 152px;
+}
+
+.logo-img {
+  width: 100px;
+  height: 60px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+
+.nav-link {
+  color: #c7c7c7;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active,
+.language-button:hover,
+.language-button:focus,
+.language-button.active {
+  color: #fff;
+}
+
+.language-buttons {
+  margin-left: auto;
+}
+
+.language-list {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.language-button {
+  color: #dcdcdc;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background-color: transparent;
+  border: none;
+}
+
+/* Стили для main */
+
+.intro-section {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 94px;
+  padding-bottom: 184px;
+}
+
+.intro-logo {
+  position: relative;
+}
+
+.intro-img {
+  width: 160px;
+  height: 120px;
+}
+
+.intro-text {
+  display: inline-block;
+  color: #fff;
+  font-family: "PT Serif";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  bottom: -30px;
+  left: 20px;
+}
+
+.title-container {
+  position: relative;
+}
+
+.intro-title {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 70px;
+}
+
+.intro-subtitle {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  bottom: -60px;
+}
+
+.intro-description {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 508px;
+  margin-top: 12px;
+}
+
+.intro-button {
+  width: 254px;
+  height: 67px;
+  border-radius: 10px;
+  background: #8e32c6;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 41px;
+  border: none;
+}
+
+/* Стили для benefits */
+
+.benefits-section {
+  background-image: url(../images/benefitsbackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.benefits-list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  border: #8e32c6 solid 5px;
+  padding: 25px 50px;
+}
+
+.benefit-title {
+  width: 240px;
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.benefit-decor {
+  border: #fff solid 1px;
+  color: #fff;
+  width: 1px;
+  height: 100%;
+}
+
+.benefits-img {
+  width: 240px;
+  height: 240px;
+}
+
+/* Стили для reviews */
+
+.reviews-section {
+  background-image: url(../images/flowers.png),
+    url(../images/reviewbackground.png);
+  background-position: left bottom, left bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 93px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.review-item {
+  gap: 93px;
+  width: calc((100% - 2 * 93px) / 3);
+  border-radius: 15px;
+
+  padding: 50px 14px 30px 14px;
+}
+
+.review-item:nth-child(1) {
+  background: linear-gradient(
+    137deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
+}
+
+.review-item:nth-child(2) {
+  border-radius: 15px;
+  background: linear-gradient(
+    137deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+}
+
+.review-item:nth-child(3) {
+  border-radius: 15px;
+  background: linear-gradient(
+    143deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
+}
+
+.reviews-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.review-text {
+  width: 228px;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.review-date {
+  color: #d8d8d8;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8px;
+  margin-bottom: 47px;
+}
+
+.review-flex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.review-img {
+  width: 31px;
+  height: 31px;
+}
+
+.review-author {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1px;
+}
+
+.review-member {
+  color: #d8d8d8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Стили для order */
+
+/* Стили для footer */
