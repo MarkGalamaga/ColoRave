@@ -1,4 +1,3 @@
-/* Общие стили */
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -11,7 +10,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-/* Стили для header */
 
 .header-container {
   position: fixed;
@@ -78,8 +76,6 @@ body {
   background-color: transparent;
   border: none;
 }
-
-/* Стили для main */
 
 .intro-section {
   background-image: url(../images/background.png);
@@ -163,8 +159,6 @@ body {
   border: none;
 }
 
-/* Стили для benefits */
-
 .benefits-section {
   background-image: url(../images/benefitsbackground.png);
   background-repeat: no-repeat;
@@ -204,8 +198,6 @@ body {
   width: 240px;
   height: 240px;
 }
-
-/* Стили для reviews */
 
 .reviews-section {
   background-image: url(../images/flowers.png),
@@ -327,8 +319,6 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-
-/* Стили для order */
 
 .order-section {
   background-image: url(../images/order.jpg);
