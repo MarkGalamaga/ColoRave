@@ -331,7 +331,7 @@ body {
 /* Стили для order */
 
 .order-section {
-  background-image: url(../images/orderbackground.png);
+  background-image: url(../images/order.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -386,12 +386,11 @@ body {
 }
 
 .submit-button {
-  width: 248px;
-  height: 68px;
+  padding: 20px 48px;
+
   border-radius: 10px;
   background: #8e32c6;
   color: #fff;
-  font-family: Roboto;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
